@@ -48,4 +48,4 @@ Route::get('/about-us', [AboutController::class, 'about']);
 
 
 // Contact Us Page
-Route::get('/contact-us', [ContactController::class, 'index']);
+Route::resource('/contact-us',ContactController::class);
